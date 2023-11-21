@@ -1,0 +1,799 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_PYTHON_EXAMPLE
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_PYTHON_EXAMPLE
+ identifier : 0x221fae810487af9e
+ internal_properties : CAAAAAgAAAC82OYDX/zlVGrV+rCXh0s9lX9+TIXMJPDeXGFNABLp+xWnBEEaBZsZXoiypUqpSK+Q0g6A+5RGVdbOfW7w1+AtxJq3NOWPqesab7Ob9uIQ4pok0oqkG9JTvawsoxpg3bzgxI95eCeI7km4DCKeuvk4c8mqpLnJDY3eA3sHoWgNHAqZassztnV1dutPThffCyYgTde2sctR3eEv4/JOAtV1vcI6mdRwzYq+3nT3IbK9bvQkHTAOilU6XrWTFv7uCu3NkCN7d5ZZEamyDjs4X5M9NgFKVH75K21a+ugFGcLZ2V3eB3Mh012M5dfW2g0LRCQgEORpAqFXN0IcQxPgb0lZM9qd80C7Y2DQTJzf+HACiGz7tFmHLGWFljmRhPSBAfOFigQw53uSVrdY0LDtMWKTe4C44CwfGmF/wg9c5e0TPGE/b3SwNnDBLosQDQr8PcQo6lSJp1swT6nAircUvq0282jEVbvk68ubIQCZRCYhDDciP5sWO19TKLktpfIg2cvQLIy0dAODTXBUPbL7lYVkmYyRtJsuGehVr26uwrH+XJ+B9JM0Zzgsnho4yYDC2RNvKcId5b2fQ4OKR0mPvRtxR8MwJppyo9+fRkm8l9HGmKvBB6br4ZUzA8Ej+U7wakpLRjIKkPmHxEeYS05FV/w7Tdc8lcUhe+2xcV8EjkxXYzTvrGSHxc9cUsoVfSpugYGdNayHF2FXIV2I1OuKlpp/CqrHIJJ3JQFZ/PrPmkr6wKvCGgrTLNqmfDSjbGNuJ+jtkRkOiVWqZyEjAVhz2cQuZdtm7UYuAoHwzfLheoaL63G/bhZUAIo+inDoCXvvxcwhNugVmEY4vytwEVLyx39KBXGNgHHofqwJtsiyYRaNTO4ru30WRFpoHQut0mWVsKshkSrPuZvhL931QeCXR7kSc3bB7/6lStaM
+ properties :
+  width : 800
+  height : 544
+  widthClient : 798
+  heightClient : 512
+ controls :
+  -
+    name : STC_NoName1
+    identifier : 0x221fae810488af9e
+    internal_properties : CAAAAAgAAAB194lBm201c3+2XWInoUqirMKugvBt53du/fATJz6FB7L4qMOPWIf31zbUHsSxPewhyoGpoNmfcmTts+hKzp4Q5mEbXO4k18LCBa/T/2fWSYohIINS9Z3MumNn5ZzpdPfPb0ZjjU/mUr9Tb9E1VYoInVECQwXBVmxy8TGJzQHXUQPOyhVacc8Id1F2D2RebyR0POatrCyFx6NdyJPMOfKwq9jqQ/0hlZImQi60k57eEo8pfRPEiIURGJlXSjsz0QyWvNtBHyQZThaDKqhAGyfXjpbwMTtVvGtSLBUKPU2YoM0P+FD02vMtIAw3TsZB+vA+xefrmqWUoX00EiWja0YUgUElSHAtXBhakVowqvt3cj67+3Bxmh0siVyrMd9TbI4Be8WiKvDvwYUmBuPhf2pzg0w8f7uOacmmWvxLfyM4cNlSSB86l6VKVkJIZyS2DO/uNdKrrM9lgJsbzK/Z4OcJ1VmJrj/uAt+Upz96dqMz62aG/Mh3IA0AM2wHVgW81sUv/izOl0Mzo2zOJBJ5H64TI8D8n7VOxQMb1W0UMT95GEroG6ki/iHqqpg2gL7mIVAVevY=
+    properties :
+     x : 6
+     y : 6
+     width : 786
+     height : 60
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         
+        type : 18
+  -
+    name : STC_STATUSCAP_PYTHON
+    identifier : 0x221fae810489af9e
+    internal_properties : CAAAAAgAAAD+EabRvrVvnnKJ9/FXq8bs9hsBazZl7HPi0JND42Z9xKfY/yjdUsNxrVn0WoSnljOtuMc3tGCspLPHxfAP4UlCMIvQ4//fhA6QEjBqQnczUuL41hsrX4Jtt1r0ggF6/Z1+M1LN67QKYA1W6SZo7GWxsrenvLWwJJyA1ZTTXXbeXV6whHDDv2RraHXhGXvMx2ee3n1/vgyBARfBxSm5Xx6YK8gzLL0xTJxXoDhRFo0DxIdXPf71QIc0lOklHExd6C0R5UzXKCcUzgsi2wsuR8TGMf+JLVPauKLgpWFiqaXPORPvPyWy7w2dakFry5sa7OQX3tFloTEBM229S8HhdzCbeYt1isVN3SiNQQAKm3onr64hjIJB05O9Vrqqy4cVzX5i+Hcj8rkgb3JYxqegtoKpJ+A0PhjIiBDk2lMMVO9sbsGuLUEsYAnutKKt8IGrIlRrJhEiTZBDYiLEXw4x/IGNKKEk8jBUO6AmZ1NRYiPMMt2xouIt3vKx1vGxDl+tk+t6
+    properties :
+     x : 26
+     y : 26
+     width : 100
+     height : 20
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         
+        type : 18
+  -
+    name : STC_PYTHON_STATUS
+    identifier : 0x221fae81048aaf9e
+    internal_properties : CAAAAAgAAAAkq5cI9A1u7qjBXjZ529b1/7G7ZAvw9mwB+Ocv2RtBfG1oo8mOKNyAUqR9+v9SMgQTJ9W+lfjT0APskwg1MU/VkmOmFpBbOfo1XToZhCgCiXKnhjhcm4+lIToTZ4fc7MIZfo0bNBkNqtW+GhR87/MA3t/S7nZh0RCkwUk4NTWuDsLNoJNKd0kGtTvIM+8kwEVDmKdRdg7tJ3N1RFupzQSo2ZWQhN0xnbHIMnmQOtoOz1YpS1c/IIexFQuJOc8wLKIhEUKG3HfeFCZTxOy+icWsuGJiV9mQHHrdWmTN0DFFwLnzgrMbIljYqL5TKBKhI2XEHH7obUEyTQFpSA5Qt88dE6hhMCVCa+/YDOLgXwCnpmLh5COywN/JS9U5/t6qkz6ZqZoCNjU6loLkbz4hbUlLVmnVWkG2oAJ6aqdsaYHnbIFjMqMSmFMBa19TxsPjUPjvGPXurXLOLuM6MPEmgWGIiUfgkzivO1dXu5jZ0hjVnysFjLR5/NleBA==
+    properties :
+     x : 132
+     y : 26
+     width : 100
+     height : 20
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         
+        type : 18
+  -
+    name : STC_PYTHON_VERSION
+    identifier : 0x221fae81048baf9e
+    internal_properties : CAAAAAgAAAChytfdwVnBADxLxColseqGzfilaBWN5lYF7fWNjQ6gN1J+Zo5dEXIPs1I+TfNP/OLmJTYJYeDK6xsWPd1MKAZQInNyS6a1MAmZYo0Xy/DcnyxvsA7dBPptDf1LgFYo4Vhrpk2QOKd6gy9FHDjlhjmN2pZoX/nH0T4lolOJBvrFOkpWNccRV8BG+mMqwIJN3liuHa7ymjGuAt1t+0wBU9ifSrqDOxEs8wgKAJIO2bTXiGbkwl/Tfrf6gmLr6HCBnimu47cVYNjWH1AMSb7USaESGro51PwyFZLgUChyVFrbmwmsf7zXIXId7DxaKfThlNk2eviXNkn2X4krbQb4OoCtDZtINpCFVKI3+E5dLUh4mgvCbMBBDPld991JxdfqM5pQNaESm4/5olD7xQW5oehJo/PE+trN6O6er/hgIh74uAmcUhIj5KHcIb650NuBahlL4tKyV23n4I4pXbx82sBBtue7zX4l
+    properties :
+     x : 238
+     y : 26
+     width : 534
+     height : 20
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         
+        type : 18
+  -
+    name : STC_The_example_is_supplied_with
+    identifier : 0x221fae81048caf9e
+    internal_properties : CAAAAAgAAACXbonVeISbhRWme+2l8aJR2He3Pk9S527+7GP3QepdKyoXlSiqFd14h92w9mPCZLuCZ0ZTY7enQIGcfJ0WrYBgxTL8t6kFPpxPBZ7P0AshJONQhpM7/zbPGoWACu5EzI3vzdREV7iMbeTmHSnICYhH/N6DMrmZzc9B/nW1xdYfIu2MBGwweoc1YcT5P3EqJyOaLb52sB3YWHCf8di1d42wCqghZtUuYUmS/VxyDsmqljTzUaTBPAiRBz3kNjB4HVfCdnOKWI1Hg70swndfaXT+aM5ODI6fMlzXlwgg+jFmnsgXFxqePm9sGweAObskidFiKkWw3fqvfsjedcgOylyte8IsQgz9utQ9QjrhcF2nwRZAI0QK89z3XilmhJJEu4YYeSCVdbFXVfgvTIz3kUS591tvInUqsUB2YrwkrsIg5n05rYbGYKXFzp/xAqIaxo6iB8FLIXEM7Wtak2meb6s8IUxRDWK5pKgIp9UjqLMG82Tl6KvRp2o1/+1uVbzsUVzhiNtoZ+YtZ6r4Xkrd/7Qwv1I9L2XxliZ0syFfHbb/4Oz40K7c5UbDE3dxeHrJcsLnU+DtOMNGkPtimI8CoQ==
+    properties :
+     x : 6
+     y : 114
+     width : 786
+     height : 21
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         
+        type : 18
+  -
+    name : STC_Run_a_Python_function
+    identifier : 0x221fae81048daf9e
+    internal_properties : CAAAAAgAAAA7gBK+qFu4fvBoxEm7NHswfi5/AyRndtcgfg5kMZFZpoMDxe+2ukm16U4sbDyZaHz8ia66LjqRsCTo6C2mdMhvGATATJUsYSvDyjlSc0x77ldwI6soSEfYTtJUSstnp6/r+3i41bLz3CnCBCAQm68IzSWob+toHVizCoW2FPBQBypiZhuXB+pU9K3y6OIHHFWEKsaEFCnuDCOaZxzhMehcgv4uCu0leyfxA4gKA1UgRPmI4A6x1tUcEf+0X0SMjBzVygODadQ28Vdpj15edyzyInJJOIH4P9NE8t5NPDw1yzgZBPEmOOPJd4LZy5HMTIWbWAJywYyAyZfi0UsPHaR8McXaPOK6e6IdsdxQ284CDVP9WKFtqe6duzWULSHVy6BmCPfKbt9W/FIANR2pV1FU51+AWVL9sKgt1/bIgFU7WAG9nCFKga6qQyCnLHAVITdtgkRgicirJ0LV0fY9jyNxw2s37xBzPHz4a1eWnncToYeI+F4KQ1CmZBLSmiKbyri72pjk5WQ3nHHHIMLC8a1c4Ho7UdKfxZEgx/K9jnScqGNnTje81w==
+    properties :
+     x : 6
+     y : 82
+     width : 786
+     height : 32
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         
+        type : 18
+  -
+    name : BTN_EXEC_HELLOWORLD
+    identifier : 0x221fae81048eaf9e
+    internal_properties : CAAAAAgAAABMOSFyt4wgQzg9TjwWPd62Cu7gAsEp1WUuzD/Z1gGDZ2CBSfbZRkLpW0RuES402hV0NYvVCraKInbMnVq0Z1TPq+avp5nag6QgyhOVL7O6893AVYgyJ/FVTxMFMjinAaod1FRIX66sSJSXap+rflkQi9NOwD9WRKZ3gxLcKxukqKGgL/Hq5vvVKLdhog3JKQY6Xe7MaR28tsCXS61N3JyXnALDPhthh3tjx3GoJP2KWDWBhUqWSaQXNNVzKPM4LtHClrQDdCivbsDizbkajFW7LT9VG2IzJsVgsUjG5WSaDh0lwmm8GlT+qObvKL4RBcpC1H10iqs8nNNb3FGU0oalFwijLLKLULz+z4YmT4DeYySy+DGotLMf6LXkOMBQtv+HhrPU8aREE08yik4Z0y8aYhgyYaQjnVvFdJeEebWTK7uf/PACCBY3ALRhrRxilD07VFmzriWTFhDzurrK7qN9F9GurMtytrpI/N3hSWedzgNwKkwBxFtAQkpP01UykmUkj0iG23sZYh1DrTNpf4i/X9EhCwxw5aZr106ca1Mje59giZNk2843E3VGK1HSAuqbiXKtGLWnX0ADrm+Tc/m6S+o7USO8AGXDkNFPTT/AQ5n8T1jrZt53hebPqx42G6IN8GkDS1igWd/3OsCNFk2nv6Np1Ul9DjNEnDTyrnvQWW0TupU1eIH2wR/oCTX6dniJLhf5X2BtYEyqIaEXnbX0iFj4lIisO1KAwRffNu+K2H7Ba7u4/SFj7AkQd0x/ZdnYidOJeB+pjn5Q03gPilMHzV1fZgC7XNMHyO359Xwo2iqS//8Ul4uIdkzPtZNPsL2dcGa8aC2/k9S8ERVi6UHqDoqpdjQFmqfNz4qvX39uUSBGVxnBqH2sZN+VgL72SnFIXfVXeTr+P/wbbnisKfSz4ZhdT5leRgCq+JTvD2KjO1qXhENm/PV2rihv1RxDr4BBJfYfi7uM6vHg49J4YOiwi9oDDHbxSwbHEVp02Sa3ygombUhC0YEk/Q4iXNWFsliQIOg3xt09LvjNQxzB8iYl3+yF01BdCkn9KzwbTw==
+    properties :
+     x : 18
+     y : 181
+     width : 92
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAAD3Xi64BEMuhraBVyrj4kjmJh+KyJVhkkNg5eFycAm75qC09uNK9cAjySu2dP7+WT4LSUCH48nUifvvWdAyE4n66xLrL/zFh03xrdq2HyeC4oi+S/PPWuM4RTAztyglW+EEhsplHwm0ulv9SeQ74cnnJQC1P9wJzW17lXhijDpA
+        code : |1-
+         
+         // Calls the 'HelloWorld' function of example.py file
+         STC_RESULT_HELLOWORLD = HelloWorld()	// Equivalent to PythonExecute( "example", "HelloWorld")
+         
+         case Error:
+         Error()
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : STC_RESULT_HELLOWORLD
+    identifier : 0x221fae81048faf9e
+    internal_properties : CAAAAAgAAAAdnw7wMV4jvehphbkVEOeJE+V4bpq1szQfnnD1cAgawCfLBY7jSsngq4i/flHP1XO4eDzhRHnNfI5fKhFD6VqeIV381ba2kYUImnyIZMKOnjPrRvZvuJKeeSYl2FdR8Q5PsbWIBHszKGdQc1CRrn324iCpzh9CtVllxigcbYDuwfsaylra2QShtNpkrqIK/mtbWwXApGHc4Px8GVl8SxJ62zuG2y+iI8KzI9huAURV6h5/SXINhd9M4U3IIYY1I3FsXHcCu4Yy2HeBCFW6+0qZl2lQnRr4fgFqCk/BwRpVdrJdMw8c7Wj3Hgy4aq29xRUmibyT1gj4AxNsMYkN3p9KMxVbnmziWuDh9ju/I1QxSRFNnPTO3RZwJUVplPn/PPBHOP1hyvM7g0peQvyKV6jIsPs6mF7Jq4agNwSqnj9GtU8ag3SAC2GJpGA7h0l95h1MQm7vT4ykygvFLJbPlqFGSxvk397FbJ/RRPm4cMlnIVuwqiZUNi47+IWIPezJWJf1/mUYKtMpUPVgUeXvsmba426y3S8XXRolWbiY1sMnGxkhZs8de7EaVN5JZ5dZ7GiNs9hxSdX4A1LpnGKG
+    properties :
+     x : 18
+     y : 211
+     width : 342
+     height : 24
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         
+        type : 18
+  -
+    name : BTN_EXEC_SAYHELLO
+    identifier : 0x221fae810490af9e
+    internal_properties : CAAAAAgAAAA0uSt2KRRe4kfkzJEMc8QjE+8KIbtKtd7QFCI3n1x3XbK8FhUYp1PZNOaqRHGqKb5tRi4RzMzcIIGsKAp382IUTuRF950kGwIOg5gt0gaIIQEMJP1MA4SoCN4J/ZrHM//Id7LqYjrWRrzdb1IKzw3DdSqeBvT+xDE7M/d1ahagzSQZUQBGrDA4MsQGk+Vjv0V7IQsamGChYhPVzHi9dB7YDbeKP+LMvyJcN0QjiWhe6e5U4mfNGQw1yuDzlZ746ht6hQJDE9HyUoejFfO8J2jMCTk8rGuHqAL7BZ9e5gIic8sP+lIx/6TPCYQopY5Y5BUn7Mw2mQrmgy/5INVh8/Eucb/mNU/kpyKotqxWMOhAW6P4yxVsQR7/E+8F0rMUzSddMKuoz2ksfBEqDrhVwjSlOfXFAgUv38OtnYm+TT3rxa7q7PxZdEzueHazpvOsoMxdjQUtG9k7ymzYhJYEs/Du8huMcwSZhi+A+OymYrFDspIKa8c6JSTrNc0h/FfAUeV3YlMaZdYXQiYRA/cE3aeJ5TVkVpcchJZOCWaXZkNsrz/KsLafKymvVrdCGO669wqfUy0+qZMkf+dzcGqCz9gsAQYmJDjQgSki6Bti4LOl0YukmslCRvlffo6l2LkEFnYd5rxaDGZXf8pbrDXyJmALLzUoyEQtVcf1NryBC6ft42vHBRLyLnQMnBMKNtL4Q/b7QrI84FzwpOX00TL4d5asNHIbPeu07kL/GSUCZXvHbP5XsoL7wfCBozcoFi2lCOPmHSZ6j7FaUBP00U96RlijvVfUp8c7z/eOOEdW/trpuR6bUdQMIosrrvVazlatEr4GPz6psGQfElX+Ec59MwtCZUm9XFoWnGRaQVZQlvcXeRhw9NLjaXDBL2hMxnecsgJdDeWAeBGJoZ+AnjwI0IzdoEkrHIUA0ZarjyLhRasDyAmbe6jnShREfAqlnvkQlIj3XERBsdNo26cUrDYZCAK0D6yuKzfjqDpQw66rKio2LE38tEkp4vy7IwNMWN9OWMY84gU9bbT1JQ5Y+8OzgN1R1PofkETQRuLNWObx
+    properties :
+     x : 582
+     y : 181
+     width : 92
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAACPae4FDQfwl6gT6LQ5BaatGj8bdIsYOOGmhYFt3Wur3+8uBmoTveFlbEVzREjmrT53Wuog4LTqDBb1oBUoqFYspVnCmZt2+fvZ+3GRdQ9HQiJcokD7e2FlGPG0MAsfA6EQZ2ShzYzebpDScyg=
+        code : |1-
+         
+         // Calls the 'SayHello' function of example.py file
+         STC_RESULT_SAYHELLO = SayHello( EDT_YOURNAME )		// Equivalent to PythonExecute( "example", "SayHello", EDT_YOURNAME )
+         
+         case Error:
+         Error()
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : STC_RESULT_SAYHELLO
+    identifier : 0x221fae810491af9e
+    internal_properties : CAAAAAgAAAB9szZWqG96IGUU0lTk2dUJ5flrLATMZ5+Ek/2xI7DWvZwN4tS9at6DlpcL9vHoB2B9JBKrXLopmga6egZNatGZHufO+iwwn8iXJTnP4+VfGxL71dq9+mWPp2rdZr2g0oVkO5ePpCRHGI8xJfgKvjinbY60EASmkr3KF83kwZR/RHoPa/m/NJMVB2FOH+jaatgdKfCbBjXM6L3/yc6qUSxoNJ8RkACVfVe/V9s5IgTTFafG1rS75Mih4co13hGkgsx63JqhwklvG+VzCIF20bx1f5QdNAOlLaiKjEUx8RYkiHf7rC2MRdn3JYvB9ugfJuKkuq6UQH+ljIxmxvU0AEnV68jxyuE+UI6qgfPoi4Ocw9bE2HLQ7cDXzlBjiXjWae9pBCBu74n1x4MvU+apE1TIQq2bCfbhB6o/uxnisWD12YfIeAtRcPDNkbqGX/xeg6F2PlEmjX9d1OkHi4PjLH3yCsgIG49hezJPWd3o5+4cJqC4Xem6nkpTH5xDVi5W1Dsdi1EOeikn6FjhpTzFEWKQtGuah86PqWAJaozyX6S9GO7RedF07kE6Z1xhFGvAG7o98xyr2awkYxAU3A==
+    properties :
+     x : 414
+     y : 211
+     width : 342
+     height : 24
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         
+        type : 18
+  -
+    name : EDT_YOURNAME
+    identifier : 0x221fae810492af9e
+    internal_properties : CAAAAAgAAAAypMFVOsYoVPUbEHiforUaFy8hdHgsQi7f9hrqPiKfrWdCmhXgk8bjgg1QhW6xnmYomB5JgPemmvzP+UANUms2Q4nt+ZC24NNkgAx9oQkMbd4N/kl/dQSUP6I21TWiBzWvPphx82ucejtSfl6VxqUqTGWuxDgDN+amifsiEXkNvXpnjeUYCMB30biiGu6qdlmJRMqMxBnmmrTM6uv/QraCedVBLhcGD77LjzR/jGER835Qtf4NHSvr82bxeBplr3370/x4v97XOxz/v7SXY63xS1Y0pQpBeatDGzeTAP2XkDQpTrS0whuuOYJlkTDTMeKcd4Lhq0ys+wARZ48Vyzvx8moBdykU3J7ahTzuiTX9M6/+DoU4y82VaQrzIdRB0rKZ0MVABCQDXuOupXJkxlTSdy5YedhrEyBYB+oV9qCGE2MIAPIaJ9AJ5eu1yaJjj91FG7d643rrOB6F6Ovgg7O4MYvz4IMI0EBcYPbk7wXXkotpsq219QezPj951diG4yY+pMac+11SlYFXdExDs4TZSwhU9pQfe+dRtNDS/s2XZvqWIR3uxFHZlXS4wRLHKRskdpghNXlHTr1Jw1ZL5pdKTw4izbkYZ112y3Nr5Hu3oxH+zFko2ipMajqyTcqq3sc4iMnetqa6qquEEwL+aLlv2bp7YWgNgaNorD0NoQck1qSxDX98jh181KmhFkFPr0U/804AFQU3rXCOm1utmINHHA0GDj8qo+RiDOMKRS5gWwkNK4zfPru7ua9zzsAnJj8XuUrqFZye9CAeDlS2qXJUr5Fg48r4nIhB4DkdzRa4FdaqprastREl5HhQeyBCxcoJNrSF6QW6v9xGsGnye+p0gqmO8QE8NinyWgOHNQQp02ghoQHz33ec4b67lUSR8bE2A8r98pFfKfJVCIeg/AehqbMjocGJ2cK7zoaPfdASuE003ZnXzviD2g1HG168NCe7Te0GrTxgOJObFBDrFLEsnpPWlKUPE4WKUR45Zk00Cv4yEq5LCOXBCGTibfxBav2dzJTjlZNxZ5ymJF9DynVjfIlBd2Q6w2BrFmoTl/RQj3lZoOa6CfNYm7E16WnVR2eyokEIpiOLge7De8SxFi2ydrCDt6vE0S6vXWuM7/UFHLlFfDwGBKbPbu7nuqtyPKVqYX6q9/ag6q4P3+ido2mkuQKS/57Z/ExveTozdQeuLUgOc4cT80tbJBhYcweqyhOocC4e8RN9DGOeylq81KsMOymcoBt+9Grppm9kDVBaBo3ppSPfDCq3qSHPqsAGZJiiS5BG0ZdYf8/UedO7ePZbo7D1nB6jTeMSWUISx9YouDtpWXzS/Er/ZLWeP4KLzsFOy21hjN9LeGqBFUzuvdKMA7MriiQumvj3WeTz
+    properties :
+     x : 414
+     y : 181
+     width : 162
+     height : 24
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        code : |1-
+         
+         MySelf = NetworkUser()
+        type : 14
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : EDT_CBOXVAL_1
+    identifier : 0x221fae810493af9e
+    internal_properties : CAAAAAgAAAB/x5S9MOipt7DgQ/o0sYRHa9xe+LhwF+K01FBdYMJ98bETyemdjMd3JCNn8od3ZwYs9LxrjlxVrh8PK9RljT4C1y9hxyctAJ3jlPjAca6uEvZQjueGk7hzzieEfdYHvL9PN+gqoh6Spa/RVZqALnOScK/Y1+a/EV02bBBUwR9RImYoGSA6dPrfydbzp83wkzlsu5jYz/aOktgmHNzo4IoqEVEGv0iYZyAeABQGmTo3OdWQ5BxqfB5bvETL94+rByY38EpNPwFrPlb26gkf3zzR44RaF5IBRspM9gyO7EALumGIWRS9oXpPmNWXN6XhAN1Pbd6GHKoC0nKptyUby6KQQjxDqIAtlrEWlcTyxNgnOBPVTF15VejgJapZom2gZtdY1vQRM97oypb76aUP3M0p9acFr6kb36uoGKx4hWpQpkh7WWlRAKpUqudDuasZ99zSyXDTArYODP6BleWGuASq31dmrM7sDZcOwXkJ77PMvcpW04v62+EcPfMVX5T2PjITO5MiFVjhzpbh39UfVIdj6x2SDHJT9NvQ4ixzeFa3wX86iRRXFdTa6TBuM71DCLZ06t4Aqkngjacqa4EUkeg96AWZdPd1qNa0ot6TdAF84SJHS1fA2g4xtrOCZY/ABg9PTcXJvpTk9QMxqKeB6UO5kknMwevhb1/N/sNEDNPLqZy/PEIXhGbQZvFM7EukSqrCh8lVAhDTebgf8aCjmrBOjzFGZ+3GjrMjTZ5mvRnC6/v6H+Up30cZK/gOCK23podbeNKbeh3+ReA3+OQbbDunLTFhJFd/yeaJFOCHpFCNVqQAH0VyVugbzX+QkSP+wVQZnbAonHCDK4W603nlFR+HIWDzMonvEiPozo5sJbq+/3YQy5A+8/QVxj6/6TkunA5GHTxyyNrPilhoXHClcfQomxU6hizCYWugeNgrixqE4tP0u0VlVy38unhbF8pztci9sOo6IzgHyHJ3p4wWgleiGrFuBRRYeNfambuGx3wTyVYgDfgqjZ6h0AIpvrYsBPRWZYK0Xdnb9mxFllh8L75gqvz3Pf+ojnzyFzmPxrzPLdRL/KMq2/g9B4DYUJtFu1iSqg6dz4+TZf/DFdju9LDO0iRfp3cyfeG65fRARzFLz2vxxBitJ8aF4MMAJT9J+cinHryGQ0hLum9g11S1qpVTEP5+7ijXcQgJeqGvpUfZ/qy3JSimPoMo/Q/2uh0MY5AtiQluJNWB3dj1YrZrXPGGZrSa5Y3zDVco+z2oPSqRiEXcgBPhJ72TnZ/OzqUVsFnhL36giLCoRt7y/i7qx8Cxi8kkyIjQlt6v0S6a5VzuWlCnKbTKRjxh2oDMCpaSyI8KgjPxYbeZhZfoAxC63qhSCu9RUUExmIh0mmuYoFBIfQ3FszgVyejdu3UXdE375aZk7A==
+    properties :
+     x : 18
+     y : 295
+     width : 85
+     height : 24
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        code : |1-
+         
+         MySelf = Random(1, 9999)
+        type : 14
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : BTN_EXEC_ADDINTEGERS
+    identifier : 0x221fae810494af9e
+    internal_properties : CAAAAAgAAABMcIpROI69tN2+gAO+/a0tZjVjKA8UmrL+VBNxRmy47pe59xblE180xWLLB+R14W9887+NY72wl4C+r0txH2jPHUpB7k4SiVpEyulPXQCtHpcgHwkmd2fbhadv9B8wqL4gMk5WDMhj1o4Q/16/sFseiCZpNS4/HVDL9Yc97732MAgIjufcu3NCBRbrcN/eDh3RPB4VkHnNliQIa22UNvwfSyUnhzls0LLKEwlsBvt7h0RxQ3izMHAIrmcY8I+PIkZKBweZNmH8h4wDGSW9DMthgutb64tK7qvPXe9Hc/GjeE0amBeX0WfY6vYYg/inwkij7M/N0CgAONGi7syMa+tQvpP9+3yPB4AwqEvEbQVc3rBngYL4nCW3gaYJXGpUT4rZErJV0iQDtytdNoM3MGYyK2ucfqv8I5Wj1lr6nt7OAdlhcq5EC803es7NATb9P0yEpx6nFO0kcVXTtnPNDSp9zSfPoXrABGwR5Vnk/8dB/0LN++IWgF4XGWxl4zFmOYK4AV4P5KkTfse2NSLwhFuMqXBtCQY9BNi2gCdSUUxPCVWTM+7KNcZLTfgDHU5ypIcdrUH8CKNFxwsnZlppgdE584ztvn0sU3fTRhkPLCSwB/IZkxNvvneOhTTLnWooG2OXt/Kvcd1i1G9waX+t1oUa5rJmFpAjAJ5c2ALaqcpOQFRr8vjVZ1OjG4JkVoX9mUilPvdE1t1np82YAEWXqcAx/5w/JCfA6yG7e5kr9EXLJZYMXTdPFExaPhp4K1xbBWvj9d4xpCaXA8Pu1ZMEM5kT79RA2rZztaVvSkCiFY4jJSs4W9pvf8wj8HRonoezj09UszuovolkxcnO2GX7Sr81rt5LexUaOEZPPN5tHkyMsHaI4+SUy68DqF7D3DpEl+0CHGXu7dvlOW/salHYlbk0w0D7kQOVJyGVZ3Gox/SA9KM0rpMhJo2zrjcSOKTbQK3PGV7/Nbv8kKJVwec+zj+jN/GJr22jBocDwopetg/fp8X6b0Mf+WqSupbLxHJ6YhonZInpP65RXT/wPQHVghFSWwqLqrRiodbDXXQ/v9g=
+    properties :
+     x : 186
+     y : 295
+     width : 92
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAABHMVb9aQ+YV2hDyPRhbc49wt+LhJvoyImuHQmlXXuLRy+m7pKbZZmVXLWjpDC+VQ4fatrQ0HTOIGLJzOG8lGKAqb22rY9yTX/Frw3tqUuTVqbgRhQvF6XZhDXAzI8bD3UkKwhVEXjiRriKu+A=
+        code : |1-
+         
+         // Calls the 'AddInteger' function of example.py file
+         STC_RESULT_ADDINTEGER = AddInteger( EDT_CBOXVAL_1, EDT_CBOXVAL_2 )	// Equivalent to PythonExecute( "example", "AddInteger", EDT_CBOXVAL_1, EDT_CBOXVAL_2 )
+         
+         case Error:
+         Error()
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : STC_RESULT_ADDINTEGER
+    identifier : 0x221fae810495af9e
+    internal_properties : CAAAAAgAAAA+d6adzezOZ5uvcKPYiHS9UeVExznOQmQ8HXIx3LzQkEFqZQAW+3XX6VLkBJLFz1NtD0bgF+z0D9woTmSkSDAEhKvbU0CLodQOzXtyv8n71MlwOUUf0qh/T9NNnSkDunw4djkDPQ+D53W1q/yjIUI1QhwY/i7z7E6UDe4wB4xDlGTZ2bifyEavN6kLM6w/vhXbBmAKHKWi81rARktuN0rIsZZ4anaeOvuK4XmT70Vdu8q8eGR4agS8xQArQDU9+VTDNEUMT3jMY6pUFwMK+Zahfj0Vygl9mbFdRUtmCRs/kqZuSyTWEBwp7JW+SYUepoggDy3hekgJ4xUeDSlmVEISlykcgpPEQFasR03E0vdHC7+JfZe4hy6qN0GAtv9swtxnMLHGPJktpKMu/F56YkgDdof/NV/uEe5OYeZYwPyfg6CTYRzDbHHHOHEIbVMy7zOaVbayJ8BKheX4aP4/cKgR+yKGKcIyRrDEtKcNyVRDUldYtvnuwUBe7+zl+zAe6U38i5HSTKNa20rCUf2L7GHRRi8uDml6Dz93aKXEVyaO0ivWr9o7aNXjHXVheSvT0686+lJy1EsILhp7ysRBrOeOZcaptkoitwyXG3oHf1Lt5zuVzMjB2g==
+    properties :
+     x : 18
+     y : 325
+     width : 342
+     height : 24
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         
+        type : 18
+  -
+    name : EDT_CBOXVAL_2
+    identifier : 0x221fae810496af9e
+    internal_properties : CAAAAAgAAAAxFpVc4XRt1JmA9XQnRPdM+VwOh6Jy9D3/RLzZ1BWQeoNxjvNJfA6hq1BGQARN/lTOIbRowodXMUAImmVq0+09vBOtWxpPNaG/Cjn56uvJ2EBrTPvUY7cbgxuYhsclouN539eOy+87UmY7JppvwrTkCJ4AkXUn90NO3SskLDwYiiUYU5wG98RIjv333TS1VfGVkUocpx3WjyH7Bi1QaO/4xGtXMLXQdFTHmwpqkTMXmjktj2XtbBYF1uvGMhRbaLX/wdyu9QO37dFVReJ4i5Fp2qxMPY+PwfMjTnipliW7M14bGUP2RyOL/QDU30Qiw00GsatRF4FSd+HeUBaX7GCfg3HSMVCU5R3kO2QTsQMfPRoZkSIY22DN4/Vb/dajYPQ60V6A5776EM6H7OHTdaD8+23TWSEev7sExb1Jh8aBcyM39Qy8VnHYwZNYHqO7w6Gl7S3lZI3gNVEyeCpvl9WGJ+qe5mLW2s8uy0Yn8RDv2HERboWsqmePgw0+kNW6nz1P/DogrvnB2Q1yDu1pVgryP0RNUgWKc4S2+f/ldy+KUE6jixVo4CIAsySDfr0cYtH2EYteZOJXBJnglhVsUyHM3vvzrX7U75XrXSX/FGdicDsairG2DTys8Zm5BSWcoZzJf4sujBvKVIpk2x8rQ/B7Jxd6Gw62sieomuhxuD5ELdZlJWPB5ihcswaoe4RruBFaZrRNFXC2gDHLqouwEbn3I/d0AG6NKkH62G6msXZql65nKFuWurgylBmMdoeneesQlfIVcssp5Q6bXeQgZ1nXmfXAmS8h8hrACH4iKM/0+kobKypL4LDG0PbLS/whu31tmzrkfHY1dJaz2PynWnYO0S8p5lbDKSkUPQE8WbuX61VwMBWfnp6Bu5W//ics/Ze72QRmfWWj/4moBhSXnwT5FA4VfyHUQoMSpkN2WwQht/18SXMSBQOATHjQVwyqdm2E+WkW7cDMMCbti1Qv8qRWPD4pRvfNsD7V4KrETL7CzI3o9fv7LobmsKsQACU9VtupZSfI0lMlm1vhpBHM8y/YWXcNfxSgTh7BtQxlIdoM7zyUCF7/INDWjLel+gfI0kNricb3rtFgFZWx755ubJ7k8XPQBIhFnlzNLNBlQZDE7E0IsQdoH8D2/78X2kcBhk+Bp0zNJJV0ijmC4brF1FMTCY3s+uatBGeLmt0jARWBaO8m527DZkW5+T+bczNOIdO6AH9IuoNot2vT+5v0KluNuW6Xy5tZ9WI5Ndlfa/OekeGH7dSNY9RKOx/d1x+7aBJB6/h9gsqLjHO7YopKTa4IOsYHXBxYiS8NgrorBQdZX7sT1ARvqh4pv1v48n/PxMpwqxyMQH6wGjn1UoCFtfyG0t/E4G00vG1bt9xlYxKrQbpm29t2rBB081s=
+    properties :
+     x : 109
+     y : 295
+     width : 71
+     height : 24
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        code : |1-
+         
+         MySelf = Random(1, 9999)
+        type : 14
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : STC_Add_two_integers
+    identifier : 0x221fae810497af9e
+    internal_properties : CAAAAAgAAACiYSJyzGGj8SKvb6fodapub17KEnSZ8HvFaP8g2tvy6lF28p0azBUAwXaXk74LSaB8AYcMBjOpyL8ps2817DLRDR+EWdo6edmca7Wev1y1W1TlOZwf/OlLTQwnUzlwmNNjjxhAB6jEaZtROY1BZFPeNV5St34OajDMdApw4aU7s9ygWgcekujPRpTopgJmQz5XFwE9efeJBTU7miwUX6RR4DbMH57Wyv+IkKwhH8YiLrN3MobUXgMrCcHrX6SxNxHiNK7o0XhImMIJhS/5Ahf4rfIgqfK6laHp4Knn6LW0LYSF9MZOtnkTny+/YzfFToshFvqw5BJuK1hFuDm0Y72KmdhO+Kx+NC5PBJBhEpPxL+GY3ZE4AgTx6Rx+k13goG4RmIFkuXixECiTpKtbSBTCBSKWXn2XJmoS1OGCXY7sWSTBjfFuOJqPqFxHIZB9EnDiLoyTOt6Bqkhrcqm8tM6H+ql8DVxhsoV3r48ZUOvuNedZaRQvxUsT6h5S+sOqr3AgpjPBDSI+PE5+lST401pq7W7e4ZoEVR/Nqk1f4mWjf54=
+    properties :
+     x : 18
+     y : 269
+     width : 342
+     height : 20
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         
+        type : 18
+  -
+    name : STC_Call_a_function_with
+    identifier : 0x221fae810498af9e
+    internal_properties : CAAAAAgAAACNZs7Rm1ffO0MiysujGDX6AfUvcaHtSvGAQiA+SFQsTM1E10sBrOM6foaSyrkyZ/skEY+JdTc0reZQ16x1NtdzpcVQPEMyjSzuSEgCMmOnNBr+Yp9Y8yvanf+o7fLQN6JGDqXUsJUgXatYp9kRUjWgd6/EU29otrX2nRZ18xzEGewWboMWqI+pnuxb4YhlazLiXznhtOPjAT68gA4bTZ0dHeEAHyrUZ/OmHeqt9aAskIa/KVVhOc4OjPKcRxwhbsXFTKrrbP7XMX6P5U/Ov3xSi/DXELgta1zaszzg4a69XAXaQQdHzYrAoFZeig6Wzw6wof2p9aH/sMO4I3bpJEoJpIcNua19VSuow9+ut3xWhjR3PMa1zeFKHIEbDuDna3fyuaJF2m+maRNiiw7G/y+bfMWhWXjcgaGlnXrb9h3/duEifo4L6xqHe29iMojbSKImiMjX7glLHnyshnaXbgMDcqxTumXUJSxXYprUA9tUhGTubVnFgqSBu3cnQj3Y2A5/2cK1dHAE4/o5jEdCXJUR7ksbcdLWPHtXCLCm9NEWxKy6OMva3Va02kgC2XRtlrhp
+    properties :
+     x : 414
+     y : 155
+     width : 342
+     height : 20
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         
+        type : 18
+  -
+    name : STC_Call_a_function_and
+    identifier : 0x221fae810499af9e
+    internal_properties : CAAAAAgAAAD+OYsH6GMe7sziCQiKY+Q2DvuXk4lleqfenikZYurFdijwc0MAhjweOV5p63twKG6Eqfam66pqFaPvlOwbQy1XkKAxUkiBqMkAP1zkE3yJm6ysDP5oRpMFWo3uddmnCIdj63qdvU91cjpfr5eWe/KsayEMTcsg3YN0yNU5sebFBRyUY5X3LITFHdTNUXLNYJhRvxtlLpu9wSeC63W56uWlab3XYvXXLUk7tK883dv7Hv774DbH8FxuRildztAEBC0MAz7VnYakUMqPjDnp40DfpphSE4T9jKhmDf5cj8OkQF/4AwUZ5seYDPrumGg/tlYa6alfNyqQRFMuDaLJQQEbRmW3WwO8RJuEzU1+qxUtTrTT/ML1UoYqPmPZrkTWbBtwBdqxWrwXQz9c6Vo+2thL7k8vZ0qHAF1ZjbYzyvxIMjeG/sqrBijY+qrBTb+RBO3RNZlGeYkVNxurSuj9NRT5apmkgdEkiPgTdD5YbzElp7BaNiUE44yrPMRaazKGVJ430Z5eQLvJlYjd6LMFzXcs+nlG3WhF34MRuNzsYMrr+YziKhtjRAnmcEWcec2TX2pEnBFzhq5ZulQ=
+    properties :
+     x : 18
+     y : 155
+     width : 342
+     height : 20
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         
+        type : 18
+  -
+    name : STC_RESULT_SUBTRACTFLOATS
+    identifier : 0x221fae81049aaf9e
+    internal_properties : CAAAAAgAAAB4N9HIBsoxyZWig/s0TTW9B3gYZYZlXkDk2tB6TPefZz5YJwx/LQc4t3HvmRb0KeITDW+qQ1vR5GxSsq+11IQgtWHcW5brX8+QHP/tmvqJmjGhynqHZZ3vNcuJ7sNeZuA00omUPLefpd/E5jTM/WlMHn7cHDyJOTnqWOfLiz/w7uGQXQTpoqdK/O8539YKeXxOPldNEHPrPoUMZ5ZNSAdE3VMW4sI8TpisDguF+sNHpYc2Go4o8TNWOjHB34rmKT3xmCrXqUGwP5IbwfxmQulctDgz3QfwH2mlvGe4+8FsRfc25HoI+mcorTs2zCzMd4oruHMbUmhqJJa9c2uDc0aK36ZHkmCLphrkRbGNxfLKzAGko7MIp7AWmtvsXnsxUtg0avHVTkaK3EBuSSn+P3yZ9PlaUJMioWPDwlpusWDcxmclYNupYtgyoOV/kaLTbIouSxsi5ZVUwMAdhmOVu7IiJD4VkQcoeZFj38MPqBmto7GMz9KMPaRmyeNk2mxcUKaOgZW2cx5/E2g+8pY1J6wUR4Q+c58ch58aDxuvqBE/V0P1vTHMIA5oRllDQUfVW+BjQlkxZl7XMvBs2L5LNulOTbJzTjjBstQl9HkB9CoLmr3kT1IdjuNLcPigzMus
+    properties :
+     x : 414
+     y : 325
+     width : 342
+     height : 24
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         
+        type : 18
+  -
+    name : BTN_EXEC_SUBTRACTFLOATS
+    identifier : 0x221fae81049baf9e
+    internal_properties : CAAAAAgAAAAfxsQxj72vs5cA3DD7o2OueH3hHbp/VtKExCRAO0MqVQqdh2IkWUFHN/MI+K/Ox2doo8iW7URSPgn3comjqnoi/nLXC7nl+r5dvLqoF5KG8orFF7M82d77NOCzBSepqXDMYNLxpgYAMeelVn8N1p4HSo+2skMz0aaRKamEPPKjIPxzuASCBSRf6/0TuRn52g766S3KJhllqUysXfrSjnhpE842/zdrJ+pme20C/yjNhoHpCTAmhbgguYH5w+Xk4fGRGaHKpxiCvDQvubUDtfzcOGBO3YxWQkeT/OcQqgbO6JskB1AVuaAvjfWYfvf04CXtTvHFXd4uNpd1nfR/ojC+DqVGOjlMmkB51EscNfNYCU7h3cl12LzGPLoXopEK35a+33xFBqqUGfxgXU5KUIOjDARaA8I/VS4BCRJgnzog+QewqmCz42HwPAP0ATETEmxfzkwUcwZOIL0cYCCBiSyrC9SBrSgow05HqrrxXSE1bht0gxaoRsZkrzzg0JZAcwyai+mMSa8jJuM9gz0g+YJdxu7uyVeFIfUXRiGJnkdVPNXMltxhe8SXQsQzLAkZ52DSEl9d+DBgNKYOxBmcD9JnVBDnWs+GS8LICv82lWBdmx2v5OVasS5Id0kasCBRDBPp73++KfG8+X7s1r5T6HycOTWGREW175VGHKE4v+9xgGllAuZn9/nC7gb1V3Zx55QXbec+HzBzvuKTP90xFqoVqispgIbDRIJ91spbOoUbC7+fdOriE2w2gmWnCBeDEE/DRer0RChBmR7unWKVsaXhi5xUjDZAwcA5qHv25QUQlfPDmvl6STYFT28dtEMYesxbzuKcVmVC1Av4X2jsHrd29p0udovUIil/jVQO8WQQkwazQWRpALCQBIXHgOGuhUI08Nm5q7ocG17Ok3xnp/cY+ZtaWEUAC8ymDIV6AeNniNaeSV8MV1EKFqS7vKPs+BBt8e4VK9OIinuHIq6M/l40Ijo9hXIJi1L1UwsbP+jTrxn7mDD44yuQwTHoWg0tpS1rNSReFGcag0F+Dw+6OISli0pVyz6JAPUgZwSwu4rX9KKbR4S99sB2OF6vOeQSaA==
+    properties :
+     x : 582
+     y : 295
+     width : 92
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAAD3PfhAj13+e3Tq365W/blzvSGdoN6J5K4US3kiB8bjYfoY0ANQmI+kHwpltaxV/4XJzvToP9zvc0FAUaUEhW3Nud9GGA0xCOiIYt4jowi+e0qmBhgGkQ==
+        code : |1-
+         
+         // Calls the 'SubtractFloat' function of example.py file
+         STC_RESULT_SUBTRACTFLOATS = SubtractFloat( EDT_FLTVAL_1, EDT_FLTVAL_2 )		// Equivalent to PythonExecute( "example", "SubtractFloat", EDT_FLTVAL_1, EDT_FLTVAL_2 )
+         
+         case Error:
+         Error()
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : EDT_FLTVAL_2
+    identifier : 0x221fae81049caf9e
+    internal_properties : CAAAAAgAAADKvGXP/YD4yWx6w6aG9bjHzdN5ZBz2ZEAI9kqSff1y6edjNwfuglh1mGBYaZiG8e3gDtZBO2ZghkWjlnfbFI8T/iWBIrOJT2HBydS2ekBc6Pa64jeMkVgCnQJlt4RPbkUmwqWFGYlf8Hp7OTdxEBYOYRW+C93dWMxQYLJ+oFRHNpGWY9+6eAGr68MKyTPUUXtleuP4v90KUdWow69x02UcPpQPUQGnBHelO15/YfLuLWLTPtWQTAMzEaMgmwvtrtGWBq4ucjS3IjDXExBIn5joKMemE3GeHRjUs1XE5BeYgzQKOIJIvDHlFZrcXIEnPwgTnWwZJ5bojXJlhZ8tJObm/qE3JDK42yy7zWPtLtRl0jYprfsosjbLPaWbg9L9DEp46JVvgeOtMCiDrQ7zkpdgUFp/sIUyKWH5OnfAwIIpE1MTfIsfnbKUsycjZmHO459Kht3/DeSCMZsm96jGdEYILH705vCRjsaDj8GRrnVKhRvMxDA/PI/uHE7PxFt2qnS3IU64w0Dg8eAVVLlL6Lj/DL/GY5rkc3tIIJyyE2m2w8KESVjjpuruJsEqMqvIEA+yBPjnyJv9yNKYKuR9J3ys9lxs4wZSadGOkcbUlZhsFk8Z/pgzbNADUOVuNKhCAJQvVwYx5IsrZTBkUHYUn8L3tDBoMcu0S/082HTOvgycjmVmRrrcSjFg4awgqkut2TxQUPMKw1fCREta0Nc33nYklSsup7X89lfqLTjVLKtnD866/lYnDggwiSSDSxNyxzXQAFl8plcDff5N4nPE7+bBR5A7mkZmVIKP2D2r72M06TrL76KgeybqSeM9B8FgaKeaBIIKM7Wj+FbztUsYRW4E8G6Hc+5uo9onWk6jpXaHtROPjwgOJOxiPQxsPcesOp74R36LaFBX+IBzX44lx1ORq69wCMrtwiReThBdpcSYIM5TifdsA3LhUuS1duziJkYYP2JZqioZ6t0GH5W7JupDbRZXNn9RQrPvBn69sdbdf2IZSxZvaNQ191EankRUOUWqSLhjMXT5ZsmiHSywAGe8FhooFJbfZ4dPJoIKNmpU7wEduiaCBKy0sNcm1frYcaE6/Z1UssJCuOHSPTPbW3SnF4yH4CLWn5Z9WuHvhla5qR3EjJS/75SD6BXEdnGIa65cs55Rayc41gT1vzBVMNJsO8WOVpcXfUPk0/lEkVq//ZMgXx6vUubP1Q6Spg99al7A4PT7XlZBrEJRk7G1cheQxOFS30B6DNijBKPBcfDgcl8vJWC3XO0750UVLXYs9BgPazDpbTOuWWbsUpwQAY+WBlpRSdKLSR/nP+AM6BE20vzahfBE7f8GjTg+iitdyKBQMYN3gECip3AUKiU4eZ2ldwqsLfgbUbIJRjhb4jl0e/EiKi0azLXMtJAcdiOVwPnZWQ==
+    properties :
+     x : 505
+     y : 295
+     width : 71
+     height : 24
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        code : |1-
+         
+         MySelf = Random(100, 9999) / 100
+        type : 14
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : EDT_FLTVAL_1
+    identifier : 0x221fae81049daf9e
+    internal_properties : CAAAAAgAAAA0f9Rfk7JU2N/jahK+gQGo00eMKzOt5QqnVCcIvd6TAbrPnPdSIwr5XA3M+ImE/b4vT8VwEYJ+0shekxFd8Wc9s/sOBg05zPzk15ueG6ID576WN6pA14nVOOJMNdk/Ye71FgkIJARpujvEGVsvcWyv2GDB7Pkiz42swHlpjMAzBgILkRyPpM+7hPAPu5lJJTRqbI37/u7wuIYZ2KrgDubx/o8c8RDn+KDB/gXjDkGmrXhugeWB199eUy0ioaXR6gKUxj0BZvS2HAWiC7WZLZt6GjQBxsKipsijMP7QqpFWLgTXhpLTc8SNUcJr4+uk4et8iRzz2bLUiKTsQSBQAjpXn7W382mAAHCbdjoPIl2/tKHtTaWa9szlUEZadf1Wox+WRqDjRjVNM05N3/KD/IVLxz8R7AVvvt+v8gbAPOevbhdYnwlpWrRyc5/80y/LKbKVwmMwgnQeU+VN8yTe8zPrixjh6J6sMo9hb8SAmEhbktls+P6XCDTqZNO6iMLTFOfG87+oVHINIAVryUMX0u9ALhy/LY4+FhSM4m8XiNPw7ei2e8ViM3SggWcK2u6gIAQRCcFv2ji7ZwcwhMzRKUNrlCKyH7ViL7R4jGlWDSsyMuc/jKTAUsQ4jF4zGtGfXh5qbzbO93Qzju4DqvnlozBqd0b+Vm6Uyaeam2AE1vWfxzuh1zzVF7noCZd7Cyvr09KmFoo9KdhQzfFQBT19e/Y0t/iJpHe1wF7wE924izkxv3hQD+HSFKH+339zK+QkJst9MCr9xhickK4Yd7Xq/Cgrlpgca2faYlZtNYXlcp3IjT7Z7OfhgdrXI0ujkSCDbEWGgGZ8zm8Zy/J7BkXdy4ATo+CG5CzRRsQjhfqgyIPLHJNUW0ORS03kaguERAN1GE9sbNYmEJu2Wh8njNu3+LvRufEjhw3M5IzSZT0yRBH00SqkxqHnqefqRCzOPD1xMOPv9YvYNj+kjIMFLvUzYgLM1PkuBb7n2kdFQAw/SaKAU8IxyMxfAN+UVA6gJLGaV2Xlb+47ubMJitDLOkzjJaOKyf9uEtuiYOFi6EinmzBAwa0zSkL3juLgSao9ghyrUxtWii5L+UvO208Y1IV3Sbcj+xnig5yTAiCun1wEC5+X63nsx/gfUtOOy+mP0y4qIEq+dcsfmhkugoTnUjwWkExXzqu8YISGiMpth0UVvXEZO2J2ZyALJOzEnDnAA7Qy8QSeNwHhGAq1s61YLdQHqPGI/1YJTorSd2ZegWXuYCkv78Mjfh71XbQSA6BVIribLAGdE/nynTroHk3cZdoQxKxzC89BSalSichucOZK3MWlWt5UUc2epFewI++ArBUq+4HizyzNLS+jWNNi0vDJVBQXD5R9bQXoVlJb17CJwmf0LeQTzyXaHuiXm+Z5EEiiSb+xsiOnkw==
+    properties :
+     x : 414
+     y : 295
+     width : 85
+     height : 24
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        code : |1-
+         
+         MySelf = Random(100, 9999) / 100
+        type : 14
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : STC_SUBTRACTFLOATS
+    identifier : 0x221fae81049eaf9e
+    internal_properties : CAAAAAgAAAAQ21NAChtFV7m2xtXtEJncm4sne6fTkgNYeKaZd1nNGSzlUKLsU2zZIT4JR7/0IKjRhAdwlNZ1xFTB8mUi+spI/O0X9tC5QmBEJ/t+9K1hG68dSqLV+1rhVCk7Ov2DqNtpvbhc5LxxjHIvREjsy4qB8iD9Eoq/u4DBiGmkBhUh3re7S2bVc4TdBEQHLcKpI0T0MUlHElslVWikZE4RTZGT19PMvayYzXPkMerZx7wskihpXXvLrZTOTkbc05at5l9L+lKJCq65kUQTFZ88p2AYkULbGlJh+bihyMEVDp9SR6xDSgAY/Pu1V1Mbnwsf7BET7sJWWiTQhYb57F/CfbvwiyiuAl5MwrzTvMDv0FWvJZMQ1Zf+lL4r39rkf0GE3OL1ZteCl7r7uqK/aP3VQDySoYby9JNZGL6iTqNOMdJwof4bZ4HGyI9iZmol9/hszc11B1hXzll1V00RuT7fBvQGtxnph4eXWIdztUetwLMWJw9Huil3QGRPHrI6L4KbhEQBIbC0EvJ41OcKBdIFmebsh0CAoKmv2y4c0/MFe1iR7VmNC+KNYN/FDUFzqgX8ASX0
+    properties :
+     x : 414
+     y : 269
+     width : 342
+     height : 20
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         
+        type : 18
+  -
+    name : BTN_Exit
+    identifier : 0x221fae81049faf9e
+    internal_properties : CAAAAAgAAAAE8yudCS/PHevxOV3mMFI3zNrN93goVMAfSu8BpDgKTbp1vbRRj8bjWG0iPhrek9AWkmKh45x/XI4rO7c/zpX+ZqwZVMxD9xB4Bxa3rMoCfqfLmPLR3KfUpmJtaj9cSrKmSoGq78KL37wkG/7SNrzkirVQgyw9ZisMalB1yxi7flz5vFmp3Aiz1zsN26DkoI/h8I2VW5kMoemmyG9LDF6NtbMaAuR7hbTfZeoDs53Boq7lMR9zXmZFe7q5er/2W/2QQWNVKUdhKvKPiMWfOlKij5OM5ch4d8DiFvR2zBwJXi3O164dSVp/WfP2Pt0x6c4jhAuOFqlgPdhcgyaj9zjWsxcBewC8a2co4PTTOvSPzSf3Nwn+axosVAHoKf37uGgCQ9JurkZkStAP31LgBduo8gXdCjLEOz60OM71iQnYw3V4qdex8GtQEJLhSVmyfUsFGRN6L6w02C5CcnLrHbKutYHwkntxLnrIt3LpSlVOHJcGXRdqJ3qwnxaQcC6A9VmJNRelhEWUqgNIYEz+hXWJvPZjH4TsVsOVtoQ44oe6htH4Q4X6k3rCUr/yJU5TRQlSeqU5VA1tL6E/sdnAw8pEwkVYjdjCbdEEFsaG+kvNi7iEruBsL752eiy03ssLwiaqoTVibgRvjv/44gJxX6KEXJOLt8H7ahCcaV2ydmtxeJTyIzXItv/cyAjApZynM+Ydga8d6xSZu4i8YNtM042wfNHZCkOwAx97FuxY9SwgBXamJY6yr0hRbdoji70I+PHobK8s+Orf5+T374EyA2d/Z+fCe0p7dGj+Dmh4Zm3nPfOgi/7u4mox6MnaNIWmt5bRaAEW6wKhI8X/2bdfW0XBAH3UQmFS1m2jl+GHt+CvJRc2P1E/LRKC8jlS2yw72r5OIzxXP/DXo4NLBwqFLg==
+    properties :
+     x : 712
+     y : 482
+     width : 80
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAADQZyvpRjJZltgKBVFD+SKMukTEU1n2G2jmPSjnx1ZKdSF2vB36egNKcReVrz/xwpIZdIpZoyUu0CjPxu+MpGLAedmE/39iAmJIcu72BpKoWkpseLXy2lnJGPSMFw==
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : STC_Arrays
+    identifier : 0x221fae8104a0af9e
+    internal_properties : CAAAAAgAAACe5OM8eU4Km+WaEhvy6Ru99d94rQWxpMVsoMPEFE8GjmaIqa2ufiE1pms0cbpgPCxejnsm7Ig2Xnm9Xoc69tsXek8tZRGpI3daIOd1HyuXFKgqM0MeAe4okMh0uQvOR9JvO+Y6fakCoRYC+IgjPtmNkmcfGI9UrRn0Yj0l2l+ot+Z5gmN2/eZKhHj0VVYal4nScABMKonbWQN7MQYqx/ASziI7gia+FfN5+wn0ZOijes+FPBRcsrQD8qoLAEIrKT+MdeuP88VIvl2MVgvm4punriv++S6rBuuHSn+7Q9rUHcbsP+AD9Cr/q7IngzS5bsbOwXf9AS5sHDeY+mgjSgo5/lp/mM03/hPsNVaPWiHmBTybg3lERDWf3sCRqzlCUQkMVz82ASouZBpUfsJ/v2PvVpGRiT8crRonW2KwUFLdUybm0hWacTsB5L8WgYssxtJmFO+/nFiR0D5x4g7217jMhSGMk9306jDGyY/Qnjm5ihIZH78/b85oPnZVM6rtZRwMnYPpQYFcVDmfg6GCVCXRgHxyeHl+OY9FleKXOkVuotpGqJ9Zcg==
+    properties :
+     x : 18
+     y : 383
+     width : 342
+     height : 20
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         
+        type : 18
+  -
+    name : EDT_MAX
+    identifier : 0x221fae8104a1af9e
+    internal_properties : CAAAAAgAAADnLTKsZqQyrrGa+eRg452bHd2nykttXhQlnwHybzzT5EDrbAnPmRy7Z/oBft0CW5ueFGQwbe1HbEXmleWl8VJt+ZzIBkIHcgax8/zLZzzP+DTphlTBdTu+7zgAIB+9O2z56A+1V0/zve85pjA35OWIDB5WhmHLPd8nvbo81OYyvVjFcN/t3VLF27uEcEam/i4UOmpL7rFATHNRs32lBFWb3GElO8F/6mmWGsRcTdQWMwfUC8MyjhbWxvK0ShEzKxgEZ9wygJ097oXTpT3Ps2PiPKEj8HSD8caAoYJhdVCGF9uSo1426tA95sFlkL5dpi2QGtP/kKbARTD2+gRIm0lmMZJL+7Vg0md55zg08T8hsEe87x3wzjRVQx4yJd/JHLjumkQXlO/XPEVXlY19O7jk1NX8Kd8uUAi6tgAGGjAzEMtQfavkApG9FkVDnrPb+vb8M6Ok7AEZFQQOWrEbL70uVv2xqTRnF6A8UrlDbYH6g/smOuyHkZWgAo4xlkwm89fx6NMKulcnlrnNfxrv3kKB8iBi/wItN/bloKBYH04ByoStyh2FhhEIJSaBho68ykPnDWLAqgt3Di9G9VkuxybyaoBaVgGZOWW/FwRTxlgnUDhnYPDpFuzKNP/rvDl3UMt1AkmsXV+pE0XQ0z7yEKgMublQ2OHfrvULhsmydNRXE19YyI6QEAgWcymK6L7hEnTArfO0z8/V64fuOydFMtpiGP23bkOgVIltr1e1AIrk+U+Iq2N15JOsGfCHgOEpcQpO/RsXBsw29bYzaL9mRs5urrdpgko7z9FFaawPk2aKFdRFTOZPxxL1f86ECAe9g/XwQsp1brxmETbmvZKCFIZo0ajn77VjVJhFWulbiGEqjWcWfLAC6jkhLIp8ciejSsxJiQ2AEDywAUlFFBXmfOW40XkftZAdKfgQIcybKqQIrzzIFW9DFGKm9DM088ymO1nAo+SGDOQlyaiXjvSvbIvAY4e7hT/pr+XzVDt+OGjTXPeimKgRSz7TIPw/4shXxXYAQanD53RES/OiiLrKi+M+mdPqhMuSIvkSRWwiI3hZ4BW3e6VyWI6hZjFxhwj97U/fPHupUhtntXbABy5wNl6ssx9TtWGcOtnGLV7MenzR/bRwN2MmrknXmyU6eEHuliyCJn6uWN30u/O0gdFRR3JO2F54vJS27ZaMn0PFuEBu72UaY97OfPqBKdoah1a2eNPb1vPP6EgS6tsPuaqliOeT5VCwMs8NBslYSarIomz0+xm25160I5OlqbuE8/75ZsEeMMpoRPgczZOJ1KhpXFesybNsV+/FOL9ABkpAujM2a/JLOfA840lTqQX/fSXmQ+MQhtDxSWZNm/hcTAIKiG8zswZS8hza+gQ8zUAbWkVdkkM=
+    properties :
+     x : 18
+     y : 409
+     width : 85
+     height : 24
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        code : |1-
+         
+         MySelf = 32
+        type : 14
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : BTN_EXEC_ARRAY
+    identifier : 0x221fae8104a2af9e
+    internal_properties : CAAAAAgAAAB+EBzCLytbMFHmm1UT+eCCSxoysEBMRBjSKS+HXsxIrOvUTK5/P7ovIunK348cjboMzxLrmsPxSL8nxZmGhS4yTC5cT/eEiw6Mg9j64XUiXrpkcjwR/OubrUs8R+GOi/bwxr/5nUPC9rRB5Q5nRVc895gE/Pf4Q6ToKZSdrmf2T2+zxEhF5371EVYn/L+cfjGheOCpKrQ2zFrfiJU4ybQP5feOxygyiLMXBTvy4lt0baex6/U02dmRZQ4U9A5Dr2cixwEwwLZb0QYki+b28CtCAoQmc7DgEoIhWqd7xYG2LzD1A/xSG2FZ2wIp6h1ULYVN/Y5ChQUGXGma0RbzqRSp/PELtoAhBsCnk7quwxPjiJ4SRA+z30sG9QdMXNQlhUkcXZl3mXOGTqRFkea9J65aTHzELwgVCgWRPSbjgOcuUnTeRngJQeoUgRhF5A05ixtvTUgwEL9iaJTEWa8FwufFq0JOrwb41XdcyczfmcvZWfZAfh9OPobzRdlWuqjC0VPoFp1RFuA3DHrI6nXL12uru+F+i+s1mIMeEBcmXXQB/1hAS1HMKvU05nAxH8bBNw2hbM6hYm2rsmvFkhd2XdI4cZms8iOWhzC+x4EVYut3Qz17AwqS+HSjZITRbUWGdagYZ7KU8JK8XYWxH5jlwXjBXiS2SZYUpxL6yiJl+nWV/g2EO+nA8apPm0+Cv9LgwYpOBEM6k8Jq5iZ4F2mvTLVv96NUZ5b3+DKCtPY64gxmSiga4vWGyLsgC5iutEWAADVXO1KptqT3bfl/8CxwP8W/T33+pWFhkRSJ1iBb3INIQV1xRFhDtW4/OUxXRyx05mPdvc06/I69FUXBUFS2m8oRncYd/bKQRGoPrL+l2SHQqG2jYljCzbZYfguviEIb1WQi/S5tKuE2DzwoKGGRetmnBxRJilosP5wgmv0edRPtAt1bRIp8b2nKWSIdQBvFsa5q1CJQ9q5INzXTTg++KspfEfehViWTh4j78VptnPPZ/8WX9eTIRVitrAVRaXrrg+aD94W8EZhFBAtGwZE4DPnqEP7ZYaAgYw==
+    properties :
+     x : 109
+     y : 409
+     width : 92
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAAD3PfhAj13+e3Tq365W/blzvSGdoN6J5K4US3kiB8bjYfoY0ANQmI+kHwpltaxV/4XJzvToP9zvc0FAUaUEhW3Nud9GGA0xCOiIYt4jowi+e0qmBhgGkQ==
+        code : |1-
+         
+         // Calls the 'ListPrimes' function in the example.py file
+         arrPrimes is array of int = ListPrimes( EDT_MAX )	// Equivalent to PythonExecute( "example", "ListPrimes", EDT_MAX )
+         STC_RESULT_ARRAY			= arrPrimes.ToString(", ")
+         STC_RESULT_ARRAY.ToolTip	= STC_RESULT_ARRAY
+         
+         case Error:
+         Error()
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : STC_RESULT_ARRAY
+    identifier : 0x221fae8104a3af9e
+    internal_properties : CAAAAAgAAADTSmt9+3dYexBmUZrKz8v7/tLNEgZ07b/Sq2BITWiEc4TVoc1tz/MIU/a2govVpPkUUd9k0OXb8VpYX7lEHuaaD5LNumNFSTrHAe0KttMhmKJlncQPD9lwtJifVRLNuamd1bs6NkU8MIIOuiIP5rbT3VWkua3/j8JYkORCF+EE4id7yHkrwlotkiqtAbBVAP9TkBiYqoh2wkQE5ElxlKoqckEbhKL33goyGF2uy6mUzpDcOi+7dfgPXtDnQeLeVPBb+6zJJLt3BPiikjMwHYwwqbSgxCZxABrmKAd1Pwchf0e6s14S5jCPSUbjkJQJH8uT7hTaehmGxVRM9krYhoGYchRrfzznPGCY1BpC4HQ3X3bq5EsEmCTuyJlYcxL3mgRIqX2QkCol10H+CVW5FGNlQLsD6CsPLNFvLrKk2RsRMHlRF4FqYvuGZijOHwXYAJZm5SklTjkDG6CAZMBli5YBejGTIdF7imWBRq63gZsPqrfQUIkPOHkBBrYmM4Vu9aW0h0tSxFb/JGV37afjioblEmiVzvdwjLmSBFqE19iMMSHbaDUel57I3p25dNI0FzRGJfl2PueaIzpdz33bZfw/
+    properties :
+     x : 18
+     y : 439
+     width : 342
+     height : 24
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         
+        type : 18
+  -
+    name : STC_Dictionnaires_associative_arrays
+    identifier : 0x221fae8104a4af9e
+    internal_properties : CAAAAAgAAAA0FQmaujs87iUFMjVotMA1KCPjK5UkErnJo58tCT5uYQT4/7+RaKT9EXwjFUeXSVlEhjHZwqTJLDB4nhHcowHimNbrkMAG81yQmas8ZLRrflCgxSItX+I8zCjxsMCJI/dpkAPNDp6u73ZrCtIFjkA66iNfgWo6gMtukR3RYxacJGg5Vad6/RVHaiT43QL5bk8D6HHUIOD5o2AG3YRfzInQtRcObzLxqgi6KI3WnOWpbFPZa535hMuiJAIKHOX0Lyy8qquiwdd/gHH4MNTa3qoeDsUn6PPZOVjsy+M5oGWpHOexyUhehaXkInVtix+8SUczSl3FZpkbcZ776lK8s6Os7083uvoorx4JNiqFBYTFyrPWu4sPh2iknQN/V6BbXnBfBrGucIXtgSEvloR6lnLc99YzQYor3K/eZlCM/cNCUkc7yzOpGkZcwqH10QDEkuruCJNjhs5LvSeWH/s1JkpTbDh320/ffAK8DcCJEe+BW5BBNLmPMPMfCQ7iQjPscwoDYqbtRHXCErzGo0FkT+hsIs+IsR/aHdCLyGqOH0v04oo9zoreR9daEBTuZqcA
+    properties :
+     x : 414
+     y : 383
+     width : 342
+     height : 20
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         
+        type : 18
+  -
+    name : BTN_EXEC_DICT
+    identifier : 0x221fae8104a5af9e
+    internal_properties : CAAAAAgAAAAvqXgG4TkOXrctzqpKRs3BslpfLIh5EU7xvhhWbXq+m/Zl5L9z8b/AGjkvD19N+PxbxL0F6UujJBu3xTdxFPhr8kA6HAIhrKlCcM66EDDwoiuW1bO/Io3vD/jKxAjHj6HfAwmUicr6OQ4kIjT2e0pN8DfraQpLcDK2uULo1PNbLH0aA/7lnCGQs+TBLFE+/XVS9kERQFWGG7AMlZhkuPtI6k1oQCLmt9mu/Qrf5nGB4bp4ohfjIb+cDmaB4RZEvNEF2z4RPe9s22q39hYDukkDIrF0kJJtwO42ye+Lq9RccY1Z1aIfn1WF8k6PAKDGbLNpRhDg/gOcG2QX40Q3mx7pLmHNHpQdZ4Od9ss/zImDRAmzVeNWeRTTrWb5fTQITyZHNthWehe3gvqtiIdPvebNiMwnVOXAKKYmaDjd40k9AB78KX9zpRprepSX/6Nuf0xH8cZh9SbQOBJILcWmaihkVejFCxK0mpTOf70aanP7TD6R8lRokMKKwtKt+v9i2lehsvBb/TBwNC19kA35/Zi68pAnzRD9oWleCdyNLNsoCGYQ5J3AOhDgYKhEdDEZEDpJJe6Zemm6JvQKTU1CphIKYbWb7LdB808T5QWsW5nehMfslt1huEcrKrj5un5G3W5T1/5eqUDUSCfPTJVy5mPJksgsLRDjDCTRpzVWgva9WXGsyzTPGbvpL4a1U+SfPpulbjNswKi9qfYuqXsWr6VzglLJGVccbTsYHxXiw3mjT4NhN1c6P/dIaSBnXhNwI27kUndcNwttpcGRTS/7eG+bxiY/v3v0Gqa0ddf31Ay4tf3GRZvgKt7+9TpITekCRBXHMBeY/epsxqiE5cBlxdw5tEAX/SYjq8EC9bgSoZM42/pKkmI1hW8SbNOpC+C/Ys1kWKuUr+FvqoHv0PJA7Gf1QcOCk8u2DKhX9BZHpnvwtM+nBJMttnag93Nk2dZVpvUIuwYsBjcA3c/9PpTOONvWmfOT4lFDBiZKFPDedBpbVYhUHbrcvYtrBQ==
+    properties :
+     x : 414
+     y : 409
+     width : 92
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAABxWLdqt4W+U3PJKiLU4JttBK8tS1LMY5FYC+7QTxcWkvKbNOelbqr4IiiUbQ2rh5/yMPmn9kVWLuwtFkS5Yf/OAm7oJv0tyTV0u4uiKk4kxGXsmsjefqtaHA7UabukD31LeEFqzqGI5HixDnRCsDlzxtw0VE9jg/38qW/mDLP+fQ==
+        code : |1-
+         
+         // Calls the 'ReadDictionary' function in the example.py file
+         let Dictionary = ReadDictionary()	// Equivalent to PythonExecute( "example", "ReadDictionary")
+         
+         STC_RESULT_DICT			= "Charles de Gaulle was born in: " + Dictionary[ "C. de Gaulle" ]		// The key of the Python dictionary is in ANSI
+         STC_RESULT_DICT.ToolTip	= STC_RESULT_DICT
+         
+         case Error:
+         Error()
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : STC_RESULT_DICT
+    identifier : 0x221fae8104a6af9e
+    internal_properties : CAAAAAgAAABaXNbyg6uz0e2Mkk0NOTAtWv+A1tnFdy4xAcr0ZEB8BsOloISmEtywrPH3ot1vnOxfFz5Y+ruPCiYVhiq7H+vNMi3baH58IeHvhAU7a9QS0BeQhBoShP39d+9ybEky3lffABBmP8QP/OjIORiNZEfxWBdaB9v3cFmJdoh5CPqvagUVdEYuZl04iEBMVRebZ4zyncZqxKq9APLfeaLcJrfcjE7jb/5qKByDcGYWqVt38CZkXlxzWlaaOwsHmR/OR7FGLXTD7Lpsp/KAgpvCK6v4g/ZF9rYJNn3+adtX2KPVFki8/x8gZox51amch8g3ZN9zgoUBFCSEm9j69rGNIrkOwrVIZoNatCm2BK8tl2TlDFCq4YTdzYWjOfsVHd5qqkelbueJlqLLwlmwoib2YyjtX9IIg39O9vXC6VCLXfr71BWwWRbmsWPZQA30mefuUWXOFttycAsEK4S7Zii5ng9XN2dia27/DboLpJEwLtONImKRERt3O5w35Igrb3alhql3utyxgXbuMTSgNwuERVZJcFSnTGwNZ4CX2gmSjRGYfT/fXrY4qMTDQFgB36YNOOLoJzI57Uwglwe54SVB
+    properties :
+     x : 414
+     y : 439
+     width : 342
+     height : 24
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         
+        type : 18
+  -
+    name : BTN_EXEC_DICT1
+    identifier : 0x221fae8104a7af9e
+    internal_properties : CAAAAAgAAADFBHmux1/6a8ZVDhS5zTAXYLxNsWkceEpacKvgboMLeLJ8mfabvg1ze/Py+9FYTt/yDsAMHWK2moGuE6d7elK4Qn1P3r3L3ZnIVqCPEU4Q/1fif2QxUOFGkFf6WCb80IxTLqnolNKyKNRtYSDPnRfvlqCWjGw1PqQQnMwCO+xT5tyv3XhaxlO0oA3JmgGBm8UArbXjroO3oDBAfuxriqEVm6+qqlDbpJP9aKw1P+WgB1l3jQgQ7eYLHglf0MsFYyzmrYpk/Vs6nV1KFHabuvHxr43YlJUJTT8uUx+aeSgMVQ8u0kfFchm5nXH0YF8tk5r/SzaSMuoumYshNrI8tMAyCrJIX+3s3Axz7w0/tZXQTRYGY0Obm+/otC5/aGZxsoxiaXen0bYYxPuJiADtR5MpTxSGH3AfscubevNNViEWCqlRssChdZuhh42Z7axjYUsOxvJ3dL+UfCuvmena67rSmaqJwpJZg/u/yUy1L6S6tGBRcSxoxUTuAbuSDuMh3bU3D03q9a1nAcVRNNieqcIOAggpS4HWnBBy/XBGtLDXNP51Nwm6mdoWwne1dZjxWT+bn+EL4U5W8+/UD5W4ttGeFEh/1BjzllsRxc5p0CTkCC4CN6hSxzD86A4JeRCq+bg8LBueOb4z2mdO6YwwgwjsISL+tjMA78KTX2ZIO4mD7mEsb+JDPPkYPBDPp8QX8D+o7ilWA4izaBZ12J8i88T9F7OoWArUrewjiiIHTpMxS5+6BciZGFuIH4vN8rgM7c1VhX0Yt1tpOeZsCC+lcs73ZPRJt1Uuhu3Cve9buKZ94qN1yM80k16Hi3yspkU4qIU55RF9naKBOyD1XlFdOHOPYDVXi1jW/hnG8t6SMy+T4maWDT+Y2ViacYmWk5rHGGCz/WzRwTYs0o8EYQr1Fg/FkcSOmiHwoxZDPEVH5eG3ABajEKNv8LnsU5r9rpxyccG81mYTVHsC4jYAT3LHGM4l6h1YsntenfKybsruHRBMoFnkaNiK7Rqn+OSyjBHhDEgJEr51Ho6tnSZ+OWTmqBI=
+    properties :
+     x : 512
+     y : 409
+     width : 92
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAACr5slC5KqX+WRFmNTcomgLWYzUyXB8LXkeXVUmGzODtVkLNNL2Yj+kWju7KL2ilcDmCzf52qtZuLD8mMTuT/JAH396XuYM8ZA2+hoX2evuBT/1hydspsomKi0bZjP9qWdTJWjvkGYsCcr2m9XGMAnaMNf3zVIBNmrTn3xeHKQrgZk8JheRYyaJ8XoLS4b0h58+Og==
+        code : |1-
+         
+         aaSource is ASSOCIATIVE ARRAY of int
+         
+         aaSource[ "bicycle" ]	= 2
+         aaSource[ "car" ]		= 4
+         aaSource[ "tricycle" ]	= 3
+         aaSource[ "unicycle" ]	= 1
+         
+         // Calls the 'WriteDictionary' function in the example.py file
+         STC_RESULT_DICT			= WriteDictionary( aaSource )	// Equivalent to PythonExecute( "example", "WriteDictionary", aaSource )
+         
+         STC_RESULT_DICT.ToolTip	= STC_RESULT_DICT
+         
+         case Error:
+         Error()
+        type : 18
+      -
+        type : 161
+        enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x292573e513b5f221
+  internal_properties : CAAAAAgAAACCv199ARoPUfG3WAPSG9eefhOOjWMQrs8CrX6cGGGJPoSHWBq4PXhStOWc1YnAZMZ5+EFR1WTDn8CTOTiyLnXPpAR5X8rsRkPZrm1yZeYDDt4kRzDPLbUf4Sh/mD3kd1D8V2drCFLmjeQhgpw7GKGwHRga+ZdjSqXGIC3LD1RracZ230hOmUJTj+ABDW4IHrw4PflmVGgp8E9KnAf/gselRrzEY90l3Cr9N00QijFYYrbrl4qF4kdim1YX6jYT4ezQhbJsU84ENZsxzq+o0JVHYQ8rxck600VhGV04/ao=
+  options : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAAAjFWXItEk/EPvcbGR+hALkgRfdOpVtIn+yZNxHnmSRFJegE/AnD2HbGAaMfhGCqfzkryHG9FVhjtF+iQYkZ59QBQ88Okhh0vjCoVhOagox2hvIqrJnU30QK15/ZA==
+ actionbar : {}
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1-
+      procedure MyWindow()
+      
+      InitRandom()
+   -
+     internal_properties : CAAAAAgAAAAidSYwfFSJNqlK5Yl+t68DJwEEvyM6rQOqssEioVGA5KqO0lE8xuu+4MnVMXsCHKXqLexuhNsY9eqEdgoljy91csKsnnYyL9oVc99CmCyttkLsTvCVzTf5PXZg4SPAwKEi8jGO+6YeX2Xvh2apF3Uw/hX1XxjoEL7Nb3PFMgFXuTQy
+     code : |1-
+      
+      STC_PYTHON_STATUS			= "NOT LOADED"
+      STC_PYTHON_STATUS.Color		= DarkRed
+      GR_EXAMPLE.Grayed			= True
+      
+      // Load Python: 
+      //
+      // By default, Python is installed in: C:\Users\<User>\AppData\Local\Programs\Python
+      
+      sDir is string = SysDir(srLocalAppData) + [ fSep ] + "Programs\Python"
+      fListDirectory( sDir, procedure( sPath string, sDirectory string, nChange int, Void ) {
+      	
+      	sLocation is string = sPath + [ fSep ] + sDirectory + [ fSep ] + "python3.dll"
+      	
+      	// Checks for the python3.dll file
+      	if fFileExist(sLocation) then
+      		
+      		// Loads the DLL
+      		if PythonInitialize(sLocation)	then
+      			
+      			STC_PYTHON_STATUS			= "LOAD"
+      			STC_PYTHON_STATUS.Color		= DarkGreen
+      			GR_EXAMPLE.Grayed			= False
+      			return False			
+      		end
+      	end
+      	
+      	return True
+      } )
+      
+      case Error:
+      // Displays the error
+      Error()
+      return
+     type : 34
+   -
+     code : |1+
+      
+      
+     type : 234
+   -
+     code : |1+
+      
+      
+     type : 165
+   -
+     code : |1+
+      
+      
+     type : 177
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      
+     type : 40
+   -
+     code : |1-
+      
+     type : 2
+ code_parameters :
+  internal_properties : CAAAAAgAAAAspXRQsX4kpYpRJzI8SMGEUfXYJhQeqig0H9mPZLI9hoPnkeFEnSQ8t7JVd8VUY9eLyST/2DyAYB+9rK7lbHVOclfSdkhgAQ9dNjlmStKMpPl9
+  original_name : Modele1
+resources :
+ string_res :
+  identifier : 0x1a5cbe5c0039725b
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe
